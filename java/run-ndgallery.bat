@@ -1,0 +1,3 @@
+@echo running...
+java -jar ndgallery.jar
+pause
