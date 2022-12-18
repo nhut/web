@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+
+html {
+	overflow-y: scroll; 
+}
+.box {
+	margin-left: 5px;
+	margin-top: 10px;
+	display: inline-block;
+	border: 1px solid black;
+	width: 270px;
+	background-color: lightgray;
+}
+
+.box legend {
+	border: 1px solid black;
+	background-color: lightblue;
+}
+
+.pDiv {
+	float: left;
+	background-color: black;
+	/*
+	border: 1px solid orange;
+	*/
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+
+.pic {
+	border: 0 solid black;
+	color: white;
+	max-width: 50px;
+	max-height: 50px;
+	width: auto;
+	height: auto;
+}
+
+.text {
+	margin-left: 5px;
+	font-size: 0.7em;
+	float: left;
+}
+
+.pTable td:first-child {
+	text-align: right !important;
+}
